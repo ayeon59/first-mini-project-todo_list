@@ -1,0 +1,51 @@
+.main-view{
+    display: flex;
+
+}
+.main-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: 2px solid rgba(0,0,0,0.6);
+    width: 20%;
+}
+.main-menu i{
+    margin-bottom: 40px;
+}
+
+.main-calendar{
+    background-color: antiquewhite;
+    width: 80%;
+}
+
+.main-calendar__title{
+    font-size: 50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    margin-bottom: 18px;
+}
+
+.main-calendar__content{
+    width: 400px;
+    color: var(--grey);
+}
+
+.main-menu__head{
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+
+.main-menu__list {
+    display: flex;
+    flex-direction: column;
+    background-color;
+    font-size: 35px;
+    color:var(--grey);
+}
+
+.main-menu img{
+    width: 40px;
+    height: 40px;
+
+}
+

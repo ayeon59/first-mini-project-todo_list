@@ -1,7 +1,13 @@
-@import "components/leftside.css";
-@import "components/box.css";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+@import "reset.css";
+@import "variables.css";
+
+/* Components */
+@import "components/menu.css";
+/* Screens */
 
 body{
-    background-color: antiquewhite
+    background-color: white;
 }
 
