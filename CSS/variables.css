@@ -1,4 +1,7 @@
 :root{
     --red:##eb716b;
     --grey:rgba(0,0,0,0.4);
+    --left-border:80px;
+    --right-border:40px;
+    --top-border:40px;
 }

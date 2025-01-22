@@ -1,0 +1,29 @@
+.main-calendar__list{
+    margin-top: 40px;
+}
+
+.main-calendar__list-column{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 15px;
+}
+
+.main-calendar__index{
+    color:rgba(0,0,0,0.5);
+    margin-bottom: 32px;
+    
+}
+
+.today{
+    color:crimson;
+}
+
+
+.main-calendar__list-column-date{
+    border-top: 2px solid black;
+    padding-top: 10px;
+    font-size: 30px;
+}
+
+
+

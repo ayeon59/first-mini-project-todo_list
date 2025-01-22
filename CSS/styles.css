@@ -5,7 +5,9 @@
 
 /* Components */
 @import "components/menu.css";
+@import "components/todo-box.css";
 /* Screens list */
+@import "screens/calendar.css";
 
 body{
     background-color: white;
