@@ -53,6 +53,27 @@
     box-shadow:5px 5px 5px rgba(0,0,0,0.4);
 }
 
+.main-menu__profile{
+    position: relative;
+}
+
+.main-menu__profile span{
+    position: absolute;
+    background-color: tomato;
+    color: white;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2px;
+    padding-top: 2px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    left: 20px;
+    bottom: 30px;
+}
+
 
 
 
