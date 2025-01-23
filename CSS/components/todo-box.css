@@ -1,5 +1,5 @@
 .main-calendar__list{
-    margin-top: 40px;
+    margin-top: 80px;
 }
 
 .main-calendar__list-column{
@@ -8,22 +8,58 @@
     margin-right: 15px;
 }
 
+.main-calendar__list-column-box{
+    width: 120px;
+}
+
 .main-calendar__index{
     color:rgba(0,0,0,0.5);
-    margin-bottom: 32px;
+    padding-bottom: 30px;
     
 }
 
-.today{
+.main-calendar__index.today{
     color:crimson;
+    
+}
+
+.main-calendar__list-box.today{
+    background-color: rgba(0,0,0,0.2);
+}
+.main-calendar__list-box{
+    
+    padding: 0px 10px;
+    padding-bottom: 10px;
+    border-top: 2px solid black;
 }
 
 
+
 .main-calendar__list-column-date{
-    border-top: 2px solid black;
     padding-top: 10px;
     font-size: 30px;
 }
 
+.main-calendar__list-column-todo-title{
+    margin-top: 22px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: rgba(0,0,0,0.8);
+}
+
+.main-calendar__list-column-todo-time{
+    color: rgba(0,0,0,0.4);
+}
+
+.main-calendar__list-column-todo-complete{
+    text-decoration: line-through;
+    color: rgba(0,0,0,0.4);
+}
+
+.main-calendar__list-column-todo-more{
+    margin-top: 50px;
+    text-decoration: underline;
+    color: rgba(0,0,0,0.6);
+}
 
 
