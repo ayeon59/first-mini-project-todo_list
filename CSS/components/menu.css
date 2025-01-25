@@ -1,5 +1,6 @@
 .main-view{
     display: flex;
+    height: 100vh;
 
 }
 .main-menu{
@@ -36,5 +37,10 @@
 
 .main-menu__profile{
     margin-top: 200px;
+}
+
+.main-menu__list .fa-calendar{
+    color: tomato;
+
 }
 
